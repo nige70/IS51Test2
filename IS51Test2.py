@@ -14,6 +14,25 @@ After the program runs, the information that will be printed to the user include
 the average grade, and the percentage of grades that are above the average grade.
 """
 
+"""
+main
+  infile = open("Final.txt")
+  copy individual grades
+  close infile
+
+calculate_percent_above_average
+  average = sum of grades / total number of grades
+  num = 0
+  For grade in grades
+    if the grade is > average
+      num += 1
+  print("Number of grades: ", total number of grades)
+  print("Average grade: ", average)
+  print("Percentage of grades above average: {0:.2f}%)
+    format 100 * num / total number of grades
+
+main
+"""
 
 
 
